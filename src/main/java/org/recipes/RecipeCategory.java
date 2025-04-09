@@ -7,6 +7,7 @@ public enum RecipeCategory {
     Module,
     Consumable,
     Construction,
-    Decoration;
+    Decoration,
+    Component
 
 }
