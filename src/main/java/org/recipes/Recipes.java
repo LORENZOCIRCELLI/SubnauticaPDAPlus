@@ -5,11 +5,11 @@ import java.util.Map;
 
 public class Recipes {
 
-    String name;
-    RecipeCategory category;
-    Map<Resources, Integer> resources;
-    String description;
-    String note;
+    private String name;
+    private RecipeCategory category;
+    private Map<Resources, Integer> resources;
+    private String description;
+    private String note;
 
     public Recipes(String name, RecipeCategory category, Map<Resources, Integer> resources, String description, String note) {
 
@@ -21,10 +21,43 @@ public class Recipes {
 
     }
 
-    public static void procurar(String name){
-
-
-
+    public String getName() {
+        return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public RecipeCategory getCategory() {
+        return category;
+    }
+
+    public void setCategory(RecipeCategory category) {
+        this.category = category;
+    }
+
+    public Map<Resources, Integer> getResources() {
+        return resources;
+    }
+
+    public void setResources(Map<Resources, Integer> resources) {
+        this.resources = resources;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
+    }
 }

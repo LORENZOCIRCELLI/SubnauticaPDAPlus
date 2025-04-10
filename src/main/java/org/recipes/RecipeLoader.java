@@ -37,7 +37,7 @@ public class RecipeLoader {
                     for(String ingredient : ingredientsParts){
 
                         String[] keyval = ingredient.split(":");
-                        if(keyval.length != 2){
+                        if(keyval.length == 2){
 
                             Resources resources = Resources.valueOf(keyval[0]);
                             int amount = Integer.parseInt(keyval[1]);
@@ -49,7 +49,7 @@ public class RecipeLoader {
 
                 }
                 Recipes recipe = new Recipes(name, recipeCategory, resourcesMap, description, note);
-                map.put(pathCSV, recipe);
+                map.put(name, recipe);
 
 
             }

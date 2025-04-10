@@ -11,6 +11,7 @@ public class RecipeRepository {
 
     Map<Resources, Integer> RecipeBattery = new HashMap<>();
 
+    public static void search(String name) {
 
-
+    }
 }

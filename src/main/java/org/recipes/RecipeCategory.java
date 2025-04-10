@@ -8,6 +8,7 @@ public enum RecipeCategory {
     Consumable,
     Construction,
     Decoration,
-    Component
+    Component,
+    Vehicle
 
 }
