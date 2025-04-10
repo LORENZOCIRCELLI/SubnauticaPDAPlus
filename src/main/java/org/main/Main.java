@@ -12,6 +12,9 @@ public class Main {
         boolean status = true;
         int option;
 
+        Map<String, Recipes> allRecipes = RecipeLoader.loadFromCsv("resources/data/recipes.csv");
+
+
         Scanner input = new Scanner(System.in);
 
         System.out.println("""
@@ -46,13 +49,30 @@ public class Main {
                     input.nextLine();
                     answer = input.nextLine();
 
+                    for(Recipes recipe :  allRecipes.values()){
+
+                        if(recipe.getName().equals(answer)){
+
+                            System.out.println("Recipe: ");
+                            System.out.println(recipe.getName());
+                            System.out.println(recipe.getDescription());
+                            for(var entry : recipe.getResources().entrySet()){
+
+                                System.out.println(entry.getKey() + ": " + entry.getValue());
+
+                            }
+                            System.out.println(recipe.getNote());
+
+                        }
+
+                    }
+
                     System.out.println();
 
                     break;
 
                 case 2:
 
-                    Map<String, Recipes> allRecipes = RecipeLoader.loadFromCsv("resources/data/recipes.csv");
 
                     for(Recipes recipe : allRecipes.values()){
 
