@@ -8,3 +8,6 @@ Scanner,Tool,TITANIUM:1;BATTERY:1,Used to scan fragments and lifeforms,"Essentia
 Knife,Tool,TITANIUM:1;SILICONE:1,Basic cutting tool,"Also used in cooking food"
 Radiation Suit,Equipment,FIBER_MESH:2;LEAD:2,Protects against radiation,"Necessary near the Aurora"
 Mobile Vehicle Bay,Equipment,TITANIUM_INGOT:1;LUBRICANT:1;POWER_CELL:1,Used to deploy vehicles,""
+Cyclops Depth MK1,Component,TITANIUM:1,RUBY:3,"Increases the depth max of the Cyclops",""
+Cyclops Depth MK2,Component,TITANIUM:1,NICKEL:3,"Increases the depth max of the Cyclops",""
+Cyclops Depth MK3,Component,TITANIUM:1,KYANITE:3,"Increases the depth max of the Cyclops",""
