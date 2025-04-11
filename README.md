@@ -16,7 +16,7 @@ Um sistema desenvolvido em Java para organizar e calcular receitas de crafting d
 
 ## 🧱 Tecnologias e Conceitos Usados
 
-- **Java 17+**
+- **Java 21+**
 - **Orientação a Objetos** (POO)
 - **Enums e Collections**
 - **Organização em pacotes**
