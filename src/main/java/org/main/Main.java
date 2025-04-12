@@ -1,13 +1,18 @@
 package org.main;
 
+import org.db.DB;
 import org.materials.*;
 import org.recipes.*;
 
+import java.sql.Connection;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Connection connection = DB.getConnection();
+        DB.closeConnection();
 
         boolean status = true;
         int option;
