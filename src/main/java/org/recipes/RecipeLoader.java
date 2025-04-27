@@ -3,65 +3,61 @@ package org.recipes;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.*;
 import java.util.*;
+
+import org.db.DbException;
 import org.materials.Resources;
+import org.db.DB;
 
 public class RecipeLoader {
 
-    public static Map<String, Recipes> loadFromCsv (String pathCSV){
+    Connection con = DB.getConnection();
 
-        Map<String, Recipes> map = new HashMap<>();
+    List<String> raw_materials = new ArrayList<>();
 
-        pathCSV = "/home/lorenzo/IdeaProjects/SubnauticaPDAPlus/src/main/resources/data/recipes.csv";
+    public List<String> recipeLoader(){
 
-        try(BufferedReader bufferedReader= new BufferedReader(new FileReader(pathCSV))){
+        String query = "SELECT name FROM raw_materials";
 
-            String line;
-            while((line = bufferedReader.readLine()) != null){
+        try(PreparedStatement stmt = con.prepareStatement(query)){
+            ResultSet rs = stmt.executeQuery();
 
-                String[] split = line.split(",", -1);
+            while (rs.next()) {
 
-                if(split.length < 5){continue;}
-
-                String name = split[0];
-                RecipeCategory recipeCategory = RecipeCategory.valueOf(split[1]);
-                String resourceStr = split[2].trim();
-                String description =  split[3];
-                String note = split[4];
-
-                Map<Resources, Integer> resourcesMap = new HashMap<>();
-
-                if(!resourceStr.isEmpty()){
-
-                    String [] ingredientsParts = resourceStr.split(";");
-                    for(String ingredient : ingredientsParts){
-
-                        String[] keyval = ingredient.split(":");
-                        if(keyval.length == 2){
-
-                            Resources resources = Resources.valueOf(keyval[0]);
-                            int amount = Integer.parseInt(keyval[1]);
-                            resourcesMap.put(resources, amount);
-
-                        }
-
-                    }
-
-                }
-                Recipes recipe = new Recipes(name, recipeCategory, resourcesMap, description, note);
-                map.put(name, recipe);
-
-
+                raw_materials.add(rs.getString("name"));
             }
 
+            return raw_materials;
+
+        }catch(SQLException e){
+
+            throw new DbException(e.getMessage());
+
         }
-        catch(IOException e){
 
-            System.out.println("Error reading file");
 
-        }
-
-    return map;
     }
 
+    public void addRecipe(String name) {
+        String query = "INSERT INTO raw_materials (name) VALUES (?)";
+
+        try (PreparedStatement stmt = con.prepareStatement(query)) {
+            stmt.setString(1, name);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        }
+    }
+
+    public void removeRecipe(String name) {
+        String query = "DELETE FROM raw_materials WHERE name = ?";
+
+        try (PreparedStatement stmt = con.prepareStatement(query)) {
+            stmt.setString(1, name);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        }
+    }
 }

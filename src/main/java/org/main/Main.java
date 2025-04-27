@@ -1,6 +1,7 @@
 package org.main;
 
 import org.db.DB;
+import org.functions.Functions;
 import org.materials.*;
 import org.recipes.*;
 
@@ -11,13 +12,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Connection connection = DB.getConnection();
-        DB.closeConnection();
-
         boolean status = true;
         int option;
 
-        Map<String, Recipes> allRecipes = RecipeLoader.loadFromCsv("resources/data/recipes.csv");
+        Functions fs = new Functions();
 
         Scanner input = new Scanner(System.in);
 
@@ -25,7 +23,7 @@ public class Main {
                      ____  _   _ ____  _   _    _   _   _ _____ ___ ____    _    
                     / ___|| | | | __ )| \\ | |  / \\ | | | |_   _|_ _/ ___|  / \\   
                     \\___ \\| | | |  _ \\|  \\| | / _ \\| | | | | |  | | |     / _ \\  
-                     ___) | |_| | |_) | |\\  |/ ___ \\ |_| | | |  | | |___ / ___ \\ 
+                     ___) | |_| | |_) | |\\  |/ ___ \\ |_| | | |  | | |___ / ___ \\ 1
                     |____/ \\___/|____/|_| \\_/_/   \\_\\___/  |_| |___\\____/_/   \\_\\
                      ____  ____    _                                             
                     |  _ \\|  _ \\  / \\       _     _                              
@@ -50,47 +48,13 @@ public class Main {
 
                 case 1:
 
-                    System.out.println("Insira a receita que deseja procurar: ");
-                    input.nextLine();
-                    answer = input.nextLine().toUpperCase();
-
-                    for(Recipes recipe :  allRecipes.values()){
-
-                        if(recipe.getName().toUpperCase().equals(answer)){
-
-                            System.out.println("Recipe: ");
-                            System.out.println(recipe.getName());
-                            System.out.println(recipe.getDescription());
-                            for(var entry : recipe.getResources().entrySet()){
-
-                                System.out.println(entry.getKey() + ": " + entry.getValue());
-
-                            }
-                            System.out.println(recipe.getNote());
-
-                        }
-
-                    }
-
-                    System.out.println();
+                    System.out.println("Insira o nome do material que deseja pesquisar: ");
+                    String name = input.next();
+                    fs.search_Materials(name);
 
                     break;
 
                 case 2:
-
-                    for(Recipes recipe : allRecipes.values()){
-
-                        System.out.println("\nName: " +recipe.getName());
-                        System.out.println("Category: " +recipe.getCategory());
-                        for(var entry : recipe.getResources().entrySet()){
-
-                            System.out.println("Resource: " +entry.getKey() +  " - " + entry.getValue());
-
-                        }
-                        System.out.println("Description " +recipe.getDescription());
-                        System.out.println("Note:  " +recipe.getNote());
-
-                    }
 
                     break;
 
@@ -142,11 +106,31 @@ public class Main {
 
                     break;
 
+
+
+                case 4:
+
+                    fs.add_material("Amethyst");
+
+                    break;
+
+                case 5:
+                    fs.remove_material("Amethyst");
+
+                    break;
+
+
+
+
+
                 case 9:
                     System.out.println("Deseja continuar? (S/N)");
                     char ans =  input.next().charAt(0);
 
                     if(ans =='N' ||  ans =='n'){
+
+                        DB db = new DB();
+                        db.closeConnection();
 
                         status = false;
 
