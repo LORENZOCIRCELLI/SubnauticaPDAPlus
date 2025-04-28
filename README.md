@@ -40,3 +40,11 @@ Um sistema desenvolvido em Java para organizar e calcular receitas de crafting d
 
 Este projeto é pessoal e educativo, mas sugestões, ideias e contribuições são bem-vindas!
 Entre em contato comigo via GitHub ou LinkedIn. Vamos conversar sobre Java, jogos ou desenvolvimento!
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da [Licença Pública Geral GNU v3.0 (GPL-3.0)](./LICENSE).
+
+Você é livre para usar, modificar e distribuir este projeto, respeitando os termos da licença.
+
+Para mais informações, consulte o arquivo [LICENSE](./LICENSE).
