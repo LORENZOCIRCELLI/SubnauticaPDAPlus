@@ -1,3 +1,19 @@
+/*
+Copyright (C) 2025 Lorenzo Circelli
+
+         This program is free software: you can redistribute it and/or modify
+         it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, version 3 of the license.
+         This program is distributed in the hope that it will be useful,
+         but WITHOUT ANY WARRANTY; without even the implied warranty of
+         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         GNU General Public License for more details.
+
+         You should have received a copy of the GNU General Public License
+         along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+*/
+
 package org.main;
 
 import org.db.DB;
@@ -20,18 +36,26 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("""
-                     ____  _   _ ____  _   _    _   _   _ _____ ___ ____    _    
-                    / ___|| | | | __ )| \\ | |  / \\ | | | |_   _|_ _/ ___|  / \\   
-                    \\___ \\| | | |  _ \\|  \\| | / _ \\| | | | | |  | | |     / _ \\  
-                     ___) | |_| | |_) | |\\  |/ ___ \\ |_| | | |  | | |___ / ___ \\ 1
-                    |____/ \\___/|____/|_| \\_/_/   \\_\\___/  |_| |___\\____/_/   \\_\\
-                     ____  ____    _                                             
-                    |  _ \\|  _ \\  / \\       _     _                              
-                    | |_) | | | |/ _ \\    _| |_ _| |_                            
-                    |  __/| |_| / ___ \\  |_   _|_   _|                           
-                    |_|   |____/_/   \\_\\   |_|   |_|                             
-                                                                                    
-                           """);
+                        
+
+                ███████╗██╗   ██╗██████╗ ███╗   ██╗ █████╗ ██╗   ██╗████████╗██╗ ██████╗ █████╗
+                ██╔════╝██║   ██║██╔══██╗████╗  ██║██╔══██╗██║   ██║╚══██╔══╝██║██╔════╝██╔══██╗
+                ███████╗██║   ██║██████╔╝██╔██╗ ██║███████║██║   ██║   ██║   ██║██║     ███████║
+                ╚════██║██║   ██║██╔══██╗██║╚██╗██║██╔══██║██║   ██║   ██║   ██║██║     ██╔══██║
+                ███████║╚██████╔╝██████╔╝██║ ╚████║██║  ██║╚██████╔╝   ██║   ██║╚██████╗██║  ██║
+                ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝
+
+                ██████╗ ██████╗  █████╗     ██████╗ ██╗     ██╗   ██╗███████╗
+                ██╔══██╗██╔══██╗██╔══██╗    ██╔══██╗██║     ██║   ██║██╔════╝
+                ██████╔╝██║  ██║███████║    ██████╔╝██║     ██║   ██║███████╗
+                ██╔═══╝ ██║  ██║██╔══██║    ██╔═══╝ ██║     ██║   ██║╚════██║
+                ██║     ██████╔╝██║  ██║    ██║     ███████╗╚██████╔╝███████║
+                ╚═╝     ╚═════╝ ╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝ ╚══════╝
+
+        
+               """);
+
+        System.out.println("Bem vindo ao assistente para os jogos Subnautica \ne Subnautica Below Zero\n\n");
 
         while(status){
 
