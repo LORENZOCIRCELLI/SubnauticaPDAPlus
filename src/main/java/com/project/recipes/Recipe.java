@@ -11,7 +11,6 @@ import java.util.List;
 @NoArgsConstructor
 @Setter
 public class Recipe {
-    // Getters e Setters
     public String name;
     public List<String> ingredients;
     public List<String> biomes;

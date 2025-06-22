@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="mainPane" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/17"
+            fx:controller="com.project.main.HelloController">
+
+    <top>
+        <VBox alignment="CENTER" spacing="10" styleClass="main-container">
+            <Label text="Subnautica Assistant" styleClass="title-label"/>
+            <Label text="Bem-vindo ao assistente para Subnautica e Subnautica: Below Zero" styleClass="subtitle-label"/>
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button fx:id="searchRecipeButton" onAction="#showSearchRecipe" text="Pesquisar Receita" styleClass="green-button"/>
+                <Button fx:id="listRecipesButton" onAction="#showListRecipes" text="Listar Receitas" styleClass="green-button"/>
+                <Button fx:id="baseGeneratorButton" onAction="#showBaseGenerator" text="Gerar Base" styleClass="green-button"/>
+                <Button fx:id="exitButton" onAction="#exit" text="Sair" styleClass="red-button"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox fx:id="contentPane" alignment="CENTER" spacing="10"/>
+    </center>
+</BorderPane>

@@ -31,12 +31,12 @@ public class DataLoader {
                 recipes = Collections.emptyList(); // Initialize to avoid null
                 return recipes;
             }
-            recipes = mapper.readValue(is, new TypeReference<List<Recipe>>() {}); // Assign to recipes field
+            recipes = mapper.readValue(is, new TypeReference<List<Recipe>>() {});
             return recipes;
         } catch (Exception e) {
             System.err.println("Erro ao carregar receitas: " + e.getMessage());
             e.printStackTrace();
-            recipes = Collections.emptyList(); // Initialize to avoid null
+            recipes = Collections.emptyList();
             return recipes;
         }
     }

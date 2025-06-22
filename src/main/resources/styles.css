@@ -1,0 +1,29 @@
+.main-container {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 30;
+}
+
+.title-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00BCD4;
+}
+
+.subtitle-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.green-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+
+.red-button {
+    -fx-background-color: #F44336;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}

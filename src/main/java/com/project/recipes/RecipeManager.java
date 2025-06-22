@@ -6,10 +6,10 @@ import java.util.List;
 
 public class RecipeManager {
     private List<Recipe> recipes;
-    private DataLoader dataLoader; // This field was not being set
+    private DataLoader dataLoader;
 
     public RecipeManager(DataLoader dataLoader) {
-        this.dataLoader = dataLoader; // Fix: Assign the passed DataLoader
+        this.dataLoader = dataLoader;
         this.recipes = dataLoader.loadRecipes();
     }
 
