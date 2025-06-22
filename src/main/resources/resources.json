@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Titânio",
+    "biomes": ["Raso Seguro", "Planícies Gramadas", "Floresta de Algas", "Pontes Torcidas", "Ilhas de Vitória-régia"],
+    "tools": ["Mão (Formações de Calcário)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Quebre as formações de calcário para obter Titânio e Cobre. Use a Sala de Scanner para localizar depósitos rapidamente."
+  },
+  {
+    "name": "Minério de Cobre",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Planícies Gramadas", "Pontes Torcidas"],
+    "tools": ["Mão (Formações de Calcário)"],
+    "tip": "Essencial para baterias e fios. Colete em abundância no início do jogo."
+  },
+  {
+    "name": "Quartzo",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Planícies Gramadas", "Pontes Torcidas"],
+    "tools": ["Mão"],
+    "tip": "Use para fabricar Vidro e Borracha de Silicone. Encontrado em abundância em cavernas rasas."
+  },
+  {
+    "name": "Minério de Prata",
+    "biomes": ["Planícies Gramadas", "Dunas", "Floresta de Algas", "Pontes Torcidas Profundas"],
+    "tools": ["Mão (Formações de Arenito)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Quebre formações de arenito para obter Prata e Ouro. Use a Sala de Scanner para localizar depósitos."
+  },
+  {
+    "name": "Ouro",
+    "biomes": ["Planícies Gramadas", "Dunas", "Caverna de Jellyshroom", "Pontes Torcidas Profundas"],
+    "tools": ["Mão (Formações de Arenito)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Necessário para eletrônicos avançados. Encontrado em naufrágios e formações de arenito."
+  },
+  {
+    "name": "Chumbo",
+    "biomes": ["Planícies Gramadas", "Floresta de Algas", "Caverna de Jellyshroom", "Pontes Torcidas"],
+    "tools": ["Mão (Formações de Arenito)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Usado em reatores e veículos. Colete em biomas intermediários."
+  },
+  {
+    "name": "Diamante",
+    "biomes": ["Floresta de Cogumelos", "Grand Reef Profundo", "Rio Perdido", "Sítio de Mineração Koppa"],
+    "tools": ["Mão (Formações de Folhelho)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Essencial para o Cortador a Laser e Traje Prawn. Explore as formações de folhelho no Rio Perdido."
+  },
+  {
+    "name": "Lítio",
+    "biomes": ["Floresta de Cogumelos", "Dunas", "Rio Perdido", "Sítio de Mineração Koppa"],
+    "tools": ["Mão (Formações de Folhelho)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Usado no Lingote de Plasteel. Encontrado em biomas profundos; use o Traje Prawn para eficiência."
+  },
+  {
+    "name": "Magnetita",
+    "biomes": ["Caverna de Jellyshroom", "Rio Perdido", "Montanhas", "Pontes Torcidas Profundas"],
+    "tools": ["Mão (Depósitos de Magnetita)", "Traje Prawn (Depósitos Grandes)"],
+    "tip": "Raro em biomas rasos. Use a Sala de Scanner com upgrade de alcance para localizar."
+  },
+  {
+    "name": "Minério de Níquel",
+    "biomes": ["Rio Perdido", "Zona de Lava Inativa", "Cavernas de Cristal"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Essencial para upgrades de profundidade. Colete no Rio Perdido com o Traje Prawn."
+  },
+  {
+    "name": "Cianita",
+    "biomes": ["Zona de Lava Inativa", "Lagos de Lava"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Use proteção térmica no Cyclops e Traje Prawn para evitar danos por calor."
+  },
+  {
+    "name": "Cristal de Uraninita",
+    "biomes": ["Rio Perdido", "Zona de Lava Inativa", "Cavernas de Cristal"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Usado em reatores nucleares. Evite contato prolongado devido à radiação."
+  },
+  {
+    "name": "Enxofre",
+    "biomes": ["Rio Perdido (Enxofre Cristalino)", "Raso Seguro (Enxofre de Caverna)"],
+    "tools": ["Mão (Enxofre de Caverna)", "Traje Prawn (Enxofre Cristalino)"],
+    "tip": "Enxofre de Caverna está nos ninhos de Crashfish; aproxime-se com cuidado para evitar explosões."
+  },
+  {
+    "name": "Amostra de Coral Mesa",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Pontes Torcidas"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Corte Corais Mesa com a faca para obter amostras. Use para fabricar chips de computador."
+  },
+  {
+    "name": "Amostra de Creepvine",
+    "biomes": ["Floresta de Algas"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Coletar amostras para Borracha de Silicone. Plante em Leitos de Cultivo Externos para suprimento infinito."
+  },
+  {
+    "name": "Cacho de Sementes de Creepvine",
+    "biomes": ["Floresta de Algas"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Usado para Lubrificante. Plante em Leitos de Cultivo Externos para produção contínua."
+  },
+  {
+    "name": "Bolsa de Gel",
+    "biomes": ["Grand Reef Profundo", "Rio Perdido", "Zona de Algas Sangrentas"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Coletar para Aerogel. Plante em Leitos de Cultivo para suprimento renovável."
+  },
+  {
+    "name": "Rubi",
+    "biomes": ["Zona de Algas Sangrentas", "Grand Reef Profundo", "Rio Perdido"],
+    "tools": ["Mão", "Traje Prawn"],
+    "tip": "Usado em upgrades avançados. Encontrado em biomas profundos; use a Sala de Scanner."
+  },
+  {
+    "name": "Depósito de Sal",
+    "biomes": ["Raso Seguro", "Planícies Gramadas", "Floresta de Algas", "Pontes Torcidas"],
+    "tools": ["Mão"],
+    "tip": "Usado em consumíveis e água sanitária. Encontrado em abundância em biomas rasos."
+  },
+  {
+    "name": "Sucata Metálica",
+    "biomes": ["Raso Seguro", "Planícies Gramadas", "Floresta de Algas"],
+    "tools": ["Mão"],
+    "tip": "Quebre para obter Titânio. Encontrado em naufrágios e biomas rasos."
+  },
+  {
+    "name": "Malha de Fibra",
+    "biomes": ["Floresta de Algas"],
+    "tools": ["Faca de Sobrevivência (Amostra de Creepvine)"],
+    "tip": "Fabricada a partir de 2x Amostras de Creepvine. Essencial para Rebreather e consumíveis."
+  },
+  {
+    "name": "Borracha de Silicone",
+    "biomes": ["Floresta de Algas"],
+    "tools": ["Faca de Sobrevivência (Cacho de Sementes de Creepvine)"],
+    "tip": "Fabricada a partir de 1x Cacho de Sementes de Creepvine. Usado em muitas ferramentas."
+  },
+  {
+    "name": "Vidro",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Planícies Gramadas"],
+    "tools": ["Mão (Quartzo)"],
+    "tip": "Fabricado a partir de 2x Quartzo. Usado em veículos e estruturas."
+  },
+  {
+    "name": "Lingote de Titânio",
+    "biomes": ["Raso Seguro", "Planícies Gramadas"],
+    "tools": ["Mão (Sucata Metálica)", "Fabricador (10x Titânio)"],
+    "tip": "Fabricado a partir de 10x Titânio. Essencial para veículos e grandes estruturas."
+  },
+  {
+    "name": "Lingote de Plasteel",
+    "biomes": ["Floresta de Cogumelos", "Rio Perdido"],
+    "tools": ["Fabricador (2x Lingote de Titânio, 1x Lítio)"],
+    "tip": "Usado no Traje Prawn e Cyclops. Colete Lítio em biomas profundos."
+  },
+  {
+    "name": "Vidro Esmaltado",
+    "biomes": ["Grand Reef Profundo", "Rio Perdido"],
+    "tools": ["Fabricador (1x Vidro, 1x Dente de Stalker, 1x Chumbo)"],
+    "tip": "Obtenha dentes de Stalker atraindo Stalkers com Peepers na Floresta de Algas."
+  },
+  {
+    "name": "Aerogel",
+    "biomes": ["Grand Reef Profundo", "Rio Perdido", "Zona de Algas Sangrentas"],
+    "tools": ["Fabricador (1x Bolsa de Gel, 1x Rubi)"],
+    "tip": "Plante Bolsas de Gel em Leitos de Cultivo para suprimento infinito."
+  },
+  {
+    "name": "Bateria",
+    "biomes": ["Raso Seguro", "Floresta de Algas"],
+    "tools": ["Fabricador (2x Minério de Cobre, 1x Cogumelo Ácido)"],
+    "tip": "Fabricada para ferramentas e veículos. Recarregue no Carregador de Bateria."
+  },
+  {
+    "name": "Célula de Energia",
+    "biomes": ["Raso Seguro", "Floresta de Algas"],
+    "tools": ["Fabricador (2x Bateria, 1x Borracha de Silicone)"],
+    "tip": "Usada em veículos. Recarregue no Carregador de Células de Energia."
+  },
+  {
+    "name": "Kit de Fiação",
+    "biomes": ["Planícies Gramadas", "Dunas"],
+    "tools": ["Fabricador (2x Minério de Prata)"],
+    "tip": "Essencial para eletrônicos. Colete prata em formações de arenito."
+  },
+  {
+    "name": "Kit de Fiação Avançado",
+    "biomes": ["Zona de Algas Sangrentas", "Grand Reef Profundo"],
+    "tools": ["Fabricador (2x Ouro, 1x Chip de Computador, 1x Rubi)"],
+    "tip": "Usado em veículos e módulos avançados. Encontre Rubis em biomas profundos."
+  },
+  {
+    "name": "Chip de Computador",
+    "biomes": ["Raso Seguro", "Floresta de Algas"],
+    "tools": ["Fabricador (2x Amostra de Coral Mesa, 1x Ouro, 1x Fio de Cobre)"],
+    "tip": "Corte Corais Mesa para obter amostras. Essencial para Sala de Scanner e upgrades."
+  },
+  {
+    "name": "Pelo de Snow Stalker (*Below Zero*)",
+    "biomes": ["Bacia Glacial", "Picos Árticos"],
+    "tools": ["Traje Prawn", "Faca de Sobrevivência"],
+    "tip": "Coletar pelos soltos ou derrotar Snow Stalkers. Usado no Cold Suit."
+  },
+  {
+    "name": "Pimenta Ardente (*Below Zero*)",
+    "biomes": ["Picos Árticos", "Bacia Glacial"],
+    "tools": ["Mão"],
+    "tip": "Plante em Leitos de Cultivo Internos para comida e calor em áreas terrestres."
+  },
+  {
+    "name": "Planta Vaso de Geada (*Below Zero*)",
+    "biomes": ["Bacia Glacial", "Picos Árticos"],
+    "tools": ["Mão"],
+    "tip": "Usado em Tabletes de Purificação de Água. Encontrado em áreas terrestres frias."
+  },
+  {
+    "name": "Planta Fita (*Below Zero*)",
+    "biomes": ["Pontes Torcidas", "Pontes Torcidas Rasas"],
+    "tools": ["Mão"],
+    "tip": "Usado para fabricar baterias. Encontrado em biomas rasos."
+  },
+  {
+    "name": "Enxofre Cristalino (*Below Zero*)",
+    "biomes": ["Cavernas de Cristal", "Cavernas Profundas de Vitória-régia"],
+    "tools": ["Traje Prawn"],
+    "tip": "Coletar com Traje Prawn em biomas profundos. Evite Leviathans próximos."
+  },
+  {
+    "name": "Cianita",
+    "biomes": ["Zona de Lava Inativa", "Lagos de Lava"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Mineral raro e valioso para upgrades finais de veículos. Use proteção térmica."
+  },
+  {
+    "name": "Minério de Níquel",
+    "biomes": ["Rio Perdido", "Zona de Lava Inativa", "Cavernas de Cristal"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Essencial para melhorias de profundidade do Cyclops. Colete com cuidado."
+  },
+  {
+    "name": "Cristal de Uraninita",
+    "biomes": ["Rio Perdido", "Zona de Lava Inativa", "Cavernas de Cristal"],
+    "tools": ["Traje Prawn com Braço de Perfuração"],
+    "tip": "Use para reatores nucleares. Radiação exige equipamento adequado."
+  },
+  {
+    "name": "Coral Mesa",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Pontes Torcidas"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Corte para obter Amostra de Coral Mesa, usado em componentes eletrônicos."
+  },
+  {
+    "name": "Cogumelo Ácido",
+    "biomes": ["Zona de Algas Sangrentas", "Grand Reef"],
+    "tools": ["Faca de Sobrevivência"],
+    "tip": "Usado para baterias. Cultive em Leitos de Cultivo para estoque constante."
+  },
+  {
+    "name": "Óleo Sangrento",
+    "biomes": ["Zona de Algas Sangrentas"],
+    "tools": ["Mão"],
+    "tip": "Ingrediente raro para certos itens avançados. Encontre em depósitos de Algas Sangrentas."
+  },
+  {
+    "name": "Vagem de Gás",
+    "biomes": ["Raso Seguro", "Floresta de Algas"],
+    "tools": ["Mão"],
+    "tip": "Usado para fabricar Lubrificante e outros itens. Coletar em plantas Vagem de Gás."
+  },
+  {
+    "name": "Dente de Stalker",
+    "biomes": ["Floresta de Algas", "Planícies Gramadas"],
+    "tools": ["Faca de Sobrevivência", "Traje Prawn"],
+    "tip": "Obtido derrotando Stalkers. Usado para Vidro Esmaltado."
+  },
+  {
+    "name": "Pó Crash",
+    "biomes": ["Raso Seguro", "Floresta de Algas"],
+    "tools": ["Mão"],
+    "tip": "Ingrediente para baterias e outros. Encontre perto dos ninhos de Crashfish."
+  },
+  {
+    "name": "Fio de Cobre",
+    "biomes": ["Raso Seguro", "Floresta de Algas", "Planícies Gramadas"],
+    "tools": ["Fabricador (Kit de Fiação)"],
+    "tip": "Fabricado com Kit de Fiação. Essencial para componentes eletrônicos."
+  },
+  {
+    "name": "Vidro",
+    "biomes": ["Raso Seguro", "Planícies Gramadas", "Floresta de Algas"],
+    "tools": ["Mão (Quartzo)"],
+    "tip": "Fabricado a partir de Quartzo. Muito usado para veículos e estruturas."
+  },
+  {
+    "name": "Borracha",
+    "biomes": ["Floresta de Algas"],
+    "tools": ["Faca de Sobrevivência (Amostra de Creepvine)"],
+    "tip": "Outro nome para Borracha de Silicone. Fundamental para crafting de ferramentas."
+  }
+]

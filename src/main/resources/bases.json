@@ -1,0 +1,240 @@
+[
+  {
+    "biome": "Safe Shallows",
+    "progression": "Início de Jogo",
+    "size": "Pequeno",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch (Tampa)", "Painéis Solares", "Fabricator (Fabricador)"],
+    "tip": "Construa próximo a recursos abundantes como Quartzo e Cobre. Use Painéis Solares para energia inicial e mantenha a base elevada para evitar colisões com veículos."
+  },
+  {
+    "biome": "Safe Shallows",
+    "progression": "Início de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch (Tampa)", "Painéis Solares", "Fabricator", "Locker (Armário)", "Wall Locker (Armário de Parede)"],
+    "tip": "Adicione armários para armazenamento extra. Construa próximo a Creepvines para fácil acesso a Silicone Rubber (Borracha de Silicone)."
+  },
+  {
+    "biome": "Kelp Forest",
+    "progression": "Início de Jogo",
+    "size": "Pequeno",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room (Sala de Scanner)"],
+    "tip": "Use a Sala de Scanner para localizar Creepvine e Table Coral. Evite Stalkers usando Flares ou Grav Traps (Armadilhas Gravitacionais)."
+  },
+  {
+    "biome": "Kelp Forest",
+    "progression": "Início de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Exterior Growbed (Jardim Externo)"],
+    "tip": "Plante Creepvines no Jardim Externo para suprimento infinito de Silicone Rubber e Lubricant (Lubrificante)."
+  },
+  {
+    "biome": "Grassy Plateaus",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Moonpool (Garagem para veículos)", "Water Filtration Machine (Máquina de Filtragem de Água)"],
+    "tip": "Construa próximo às entradas da Jellyshroom Cave para acesso a Magnetita. Use Moonpool para recarregar o Seamoth."
+  },
+  {
+    "biome": "Grassy Plateaus",
+    "progression": "Meio de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Moonpool", "Máquina de Filtragem de Água", "Bioreactor (Biorreator)", "Interior Growbed (Jardim Interno)"],
+    "tip": "Use o Biorreator com Marblemelons para energia renovável. Plante Bulbo Bushes no Jardim Interno para comida."
+  },
+  {
+    "biome": "Mushroom Forest",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Biorreator"],
+    "tip": "Cuidado com Bonesharks. Use a Sala de Scanner para localizar fragmentos do Cyclops e do Prawn Suit."
+  },
+  {
+    "biome": "Mushroom Forest",
+    "progression": "Meio de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Moonpool", "Scanner Room", "Biorreator", "Jardim Interno", "Alien Containment (Tanque de Alienígenas)"],
+    "tip": "Crie peixes no Tanque de Alienígenas para comida renovável. Plante Gel Sacks para Aerogel."
+  },
+  {
+    "biome": "Grand Reef",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Moonpool", "Máquina de Filtragem de Água"],
+    "tip": "Construa em áreas elevadas para evitar Warpers. Use Painéis Solares, mas prepare-se para profundidades maiores."
+  },
+  {
+    "biome": "Grand Reef",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Thermal Plant (Usina Térmica)", "Moonpool", "Máquina de Filtragem de Água", "Power Cell Charger (Carregador de Células de Energia)"],
+    "tip": "Use Usinas Térmicas próximas a gêiseres para energia. Ideal para bases permanentes com Cyclops."
+  },
+  {
+    "biome": "Blood Kelp Zone",
+    "progression": "Fim de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Scanner Room"],
+    "tip": "Colete Rubis e Gel Sacks para Aerogel. Evite Crabsquids com o Seamoth Perimeter Defense System."
+  },
+  {
+    "biome": "Lost River",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Máquina de Filtragem de Água", "Carregador de Células de Energia", "Tanque de Alienígenas"],
+    "tip": "Construa próximo a Ventos Térmicos para energia ilimitada. Use Prawn Suit com Drill Arm para Nickel e Sulphur."
+  },
+  {
+    "biome": "Inactive Lava Zone",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Moonpool", "Carregador de Células de Energia"],
+    "tip": "Evite Sea Dragons com Cyclops Silent Running. Use Usinas Térmicas para energia sustentável."
+  },
+  {
+    "biome": "Lava Lakes",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Tanque de Alienígenas", "Carregador de Células de Energia"],
+    "tip": "Colete Kyanite para upgrades térmicos. Construa em áreas seguras para evitar Lava Lizards."
+  },
+  {
+    "biome": "Twisty Bridges (*Below Zero*)",
+    "progression": "Início de Jogo",
+    "size": "Pequeno",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Fabricator"],
+    "tip": "Construa próximo a Ribbon Plants para baterias. Ideal para bases iniciais em Below Zero."
+  },
+  {
+    "biome": "Twisty Bridges (*Below Zero*)",
+    "progression": "Início de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Locker"],
+    "tip": "Use a Sala de Scanner para localizar fragmentos do Seatruck. Evite Crashfish em cavernas."
+  },
+  {
+    "biome": "Lilypad Islands (*Below Zero*)",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Moonpool", "Máquina de Filtragem de Água"],
+    "tip": "Construa em áreas estáveis das ilhas flutuantes. Use Seatruck para explorar biomas próximos."
+  },
+  {
+    "biome": "Deep Twisty Bridges (*Below Zero*)",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Biorreator"],
+    "tip": "Colete Magnetite e Silver. Use a Sala de Scanner para localizar recursos raros."
+  },
+  {
+    "biome": "Koppa Mining Site (*Below Zero*)",
+    "progression": "Meio de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Carregador de Células de Energia"],
+    "tip": "Use Prawn Suit com Drill Arm para coletar Lithium e Diamond. Evite Squidsharks."
+  },
+  {
+    "biome": "Crystal Caves (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Máquina de Filtragem de Água", "Tanque de Alienígenas"],
+    "tip": "Colete Nickel e Crystalline Sulfur. Use Seatruck com Depth Upgrade para segurança."
+  },
+  {
+    "biome": "Arctic Spires (*Below Zero*)",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Control Room (Sala de Controle)", "Fabricator"],
+    "tip": "Construa em áreas elevadas para evitar Snow Stalkers. Plante Fevered Peppers para calor."
+  },
+  {
+    "biome": "Glacial Basin (*Below Zero*)",
+    "progression": "Meio de Jogo",
+    "size": "Médio",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Sala de Controle", "Interior Growbed"],
+    "tip": "Use Snowfox para mobilidade terrestre. Plante Frost Vase Plants para Water Purification Tablets."
+  },
+  {
+    "biome": "Fabricator Caverns (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Moonpool"],
+    "tip": "Construa próximo a Ventos Térmicos para energia. Evite Shadow Leviathans com o Seatruck Perimeter Defense."
+  },
+  {
+    "biome": "Deep Lilypad Caves (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Carregador de Células de Energia"],
+    "tip": "Colete Crystalline Sulfur e Kyanite. Use Prawn Suit para explorar cavernas profundas."
+  },
+  {
+    "biome": "Kelp Forest",
+    "progression": "Meio de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Moonpool", "Biorreator", "Exterior Growbed", "Máquina de Filtragem de Água"],
+    "tip": "Base robusta para explorar biomas próximos com segurança. Use Moonpool para Seamoth e cultive recursos no Jardim Externo."
+  },
+  {
+    "biome": "Twisty Bridges",
+    "progression": "Meio de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Scanner Room", "Moonpool", "Tanque de Alienígenas", "Locker", "Máquina de Filtragem de Água"],
+    "tip": "Ideal para coleta de minerais raros. Tanque de Alienígenas para peixes úteis e Máquina de Filtragem para água potável contínua."
+  },
+  {
+    "biome": "Blood Kelp Zone",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Reator Nuclear", "Tanque de Alienígenas", "Carregador de Células de Energia", "Locker"],
+    "tip": "Base avançada para exploração profunda. Use Usina Térmica para energia estável e Reator Nuclear para energia contínua."
+  },
+  {
+    "biome": "Lost River",
+    "progression": "Fim de Jogo",
+    "size": "Extra Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Moonpool", "Tanque de Alienígenas", "Biorreator", "Sala de Controle", "Carregador de Células de Energia", "Locker", "Jardim Externo"],
+    "tip": "Base mega equipada para longas explorações. Mantenha suprimento de energia estável e cultivo para sobrevivência."
+  },
+  {
+    "biome": "Inactive Lava Zone",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Moonpool", "Locker", "Sala de Controle", "Carregador de Células de Energia"],
+    "tip": "Construa em áreas protegidas do calor. Use equipamentos térmicos e mantenha sempre sistema de energia robusto."
+  },
+  {
+    "biome": "Lava Lakes",
+    "progression": "Fim de Jogo",
+    "size": "Extra Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Tanque de Alienígenas", "Moonpool", "Carregador de Células de Energia", "Sala de Controle", "Locker", "Biorreator", "Jardim Interno"],
+    "tip": "Base segura para biomas extremos. Cultive recursos em Jardim Interno e mantenha proteção térmica constante."
+  },
+  {
+    "biome": "Arctic Spires (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Sala de Controle", "Fabricator", "Carregador de Células de Energia", "Locker", "Jardim Externo"],
+    "tip": "Base para exploração terrestre fria. Use sala de controle para monitorar ambiente e cultivo para suprimentos."
+  },
+  {
+    "biome": "Glacial Basin (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Painéis Solares", "Sala de Controle", "Jardim Interno", "Fabricator", "Carregador de Células de Energia", "Locker"],
+    "tip": "Combina proteção contra frio com cultivo interno para manter suprimentos e calor em biomas frios."
+  },
+  {
+    "biome": "Deep Lilypad Caves (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Moonpool", "Tanque de Alienígenas", "Carregador de Células de Energia", "Locker", "Sala de Controle"],
+    "tip": "Base subterrânea para exploração extrema. Priorize energia estável e espaço para cultivo e armazenamento."
+  },
+  {
+    "biome": "Fabricator Caverns (*Below Zero*)",
+    "progression": "Fim de Jogo",
+    "size": "Extra Grande",
+    "structures": ["Fundação", "Sala Multiuso", "Hatch", "Usina Térmica", "Reator Nuclear", "Moonpool", "Carregador de Células de Energia", "Tanque de Alienígenas", "Sala de Controle", "Locker", "Biorreator", "Jardim Interno"],
+    "tip": "Base altamente equipada para exploração profunda. Invista em energia renovável e cultivo para sustentação a longo prazo."
+  }
+]

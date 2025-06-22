@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Scanner",
+    "ingredients": ["1x Bateria", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Grassy Plateaus", "Kelp Forest"],
+    "tip": "Escaneie fragmentos para desbloquear blueprints. Priorize fragmentos em naufrágios e biomas rasos."
+  },
+  {
+    "name": "Faca de Sobrevivência",
+    "ingredients": ["1x Borracha de Silicone", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Use para coletar amostras de corais e defender-se de pequenos predadores como Stalkers."
+  },
+  {
+    "name": "Seaglide",
+    "ingredients": ["1x Bateria", "1x Lubrificante", "1x Fio de Cobre", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Aumenta a velocidade de nado. Ideal para escapar de predadores em biomas abertos."
+  },
+  {
+    "name": "Ferramenta de Reparo",
+    "ingredients": ["1x Borracha de Silicone", "1x Enxofre de Caverna", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Crash Zone (Enxofre de Caverna)"],
+    "tip": "Conserta veículos e estruturas danificadas. Colete Enxofre de Caverna em ninhos de Crashfish com cuidado."
+  },
+  {
+    "name": "Cortador a Laser",
+    "ingredients": ["2x Diamante", "1x Bateria", "1x Titânio"],
+    "biomes": ["Grassy Plateaus", "Mushroom Forest"],
+    "tip": "Use para abrir portas seladas em naufrágios. Escaneie fragmentos em Kelp Forest."
+  },
+  {
+    "name": "Canhão de Propulsão",
+    "ingredients": ["1x Kit de Fiação", "1x Bateria", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Mushroom Forest"],
+    "tip": "Útil para mover objetos pesados ou afastar pequenos predadores."
+  },
+  {
+    "name": "Rifle de Estase",
+    "ingredients": ["1x Bateria", "1x Chip de Computador", "1x Titânio", "1x Magnetita"],
+    "biomes": ["Mushroom Forest", "Jellyshroom Cave"],
+    "tip": "Congela inimigos como Reaper Leviathans temporariamente, facilitando a fuga."
+  },
+  {
+    "name": "Baía de Veículos Móveis",
+    "ingredients": ["1x Lingote de Titânio", "1x Lubrificante", "1x Chip de Computador"],
+    "biomes": ["Safe Shallows", "Kelp Forest", "Grassy Plateaus"],
+    "tip": "Construa veículos como Seamoth e Prawn Suit. Escaneie fragmentos em Grassy Plateaus."
+  },
+  {
+    "name": "Seamoth",
+    "ingredients": ["1x Lingote de Titânio", "1x Célula de Energia", "2x Vidro", "1x Lubrificante", "1x Chumbo"],
+    "biomes": ["Grassy Plateaus", "Mushroom Forest"],
+    "tip": "Ideal para exploração em biomas intermediários. Adicione Módulo de Armazenamento para mais espaço."
+  },
+  {
+    "name": "Prawn Suit",
+    "ingredients": ["2x Lingote de Plasteel", "2x Aerogel", "1x Vidro Esmaltado", "2x Diamante", "1x Chumbo"],
+    "biomes": ["Lost River", "Inactive Lava Zone", "Blood Kelp Zone"],
+    "tip": "Equipe Braço de Perfuração para coletar depósitos grandes e Braço de Gancho para mobilidade."
+  },
+  {
+    "name": "Cyclops",
+    "ingredients": ["3x Lingote de Plasteel", "3x Vidro Esmaltado", "1x Kit de Fiação Avançado", "3x Chumbo", "1x Lubrificante"],
+    "biomes": ["Mushroom Forest", "Lost River", "Grand Reef"],
+    "tip": "Use como base móvel. Instale Módulo de Reator Térmico para energia em biomas quentes."
+  },
+  {
+    "name": "Foguete de Escape Neptune",
+    "ingredients": ["1x Plataforma de Lançamento Neptune", "1x Guindaste Neptune", "1x Propulsores de Íons Neptune", "1x Reserva de Combustível Neptune", "1x Cockpit Neptune"],
+    "biomes": ["Lost River", "Inactive Lava Zone"],
+    "tip": "Requer Kyanite e Níquel para upgrades finais. Construa em uma área segura."
+  },
+  {
+    "name": "Construtor de Habitat",
+    "ingredients": ["1x Kit de Fiação", "1x Chip de Computador", "1x Bateria"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Necessário para construir bases. Escaneie fragmentos em naufrágios."
+  },
+  {
+    "name": "Sala Multiuso",
+    "ingredients": ["6x Titânio"],
+    "biomes": ["Safe Shallows", "Grassy Plateaus"],
+    "tip": "Base inicial para armazenamento e crafting. Adicione Painéis Solares para energia."
+  },
+  {
+    "name": "Sala de Scanner",
+    "ingredients": ["5x Titânio", "2x Cobre", "1x Ouro", "1x Amostra de Coral de Mesa"],
+    "biomes": ["Twisty Bridges", "Kelp Forest"],
+    "tip": "Use Upgrades de Alcance para localizar recursos. Ideal para bases em biomas ricos."
+  },
+  {
+    "name": "Moonpool",
+    "ingredients": ["4x Lingote de Titânio", "2x Lubrificante", "1x Kit de Fiação Avançado"],
+    "biomes": ["Koppa Mining Site", "Mushroom Forest"],
+    "tip": "Estacione veículos para recarga e upgrades. Construa em bases profundas."
+  },
+  {
+    "name": "Máquina de Filtragem de Água",
+    "ingredients": ["3x Titânio", "1x Prata", "1x Cobre"],
+    "biomes": ["Safe Shallows", "Grassy Plateaus"],
+    "tip": "Garante água potável infinita. Combine com Growbeds para agricultura."
+  },
+  {
+    "name": "Usina Térmica",
+    "ingredients": ["2x Titânio", "1x Magnetita", "1x Aerogel"],
+    "biomes": ["Lost River", "Inactive Lava Zone"],
+    "tip": "Construa próximo a Ventilação Térmica para energia ilimitada em bases profundas."
+  },
+  {
+    "name": "Carregador de Bateria",
+    "ingredients": ["1x Kit de Fiação", "1x Fio de Cobre", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Recarregue baterias de ferramentas e veículos para economizar recursos."
+  },
+  {
+    "name": "Carregador de Células de Energia",
+    "ingredients": ["2x Kit de Fiação Avançado", "2x Rubi", "1x Titânio"],
+    "biomes": ["Blood Kelp Zone", "Lost River"],
+    "tip": "Essencial para recarregar Células de Energia do Cyclops e Seamoth."
+  },
+  {
+    "name": "Seatruck (*Below Zero*)",
+    "ingredients": ["3x Lingote de Titânio", "1x Kit de Fiação Avançado", "2x Vidro", "1x Chumbo", "1x Célula de Energia"],
+    "biomes": ["Twisty Bridges", "Deep Twisty Bridges"],
+    "tip": "Modular e versátil. Adicione Módulo de Armazenamento ou Módulo de Aquário para maior utilidade."
+  },
+  {
+    "name": "Snowfox (*Below Zero*)",
+    "ingredients": ["2x Lingote de Titânio", "1x Kit de Fiação Avançado", "1x Lubrificante", "1x Magnetita"],
+    "biomes": ["Arctic Spires", "Glacial Basin"],
+    "tip": "Ideal para exploração terrestre. Evite Snow Stalkers com manobras rápidas."
+  },
+  {
+    "name": "Roupa Térmica (*Below Zero*)",
+    "ingredients": ["2x Pele de Snow Stalker", "1x Malha de Fibra", "2x Titânio"],
+    "biomes": ["Glacial Basin", "Arctic Spires"],
+    "tip": "Protege contra hipotermia em áreas terrestres. Combine com Fevered Peppers para calor."
+  },
+  {
+    "name": "Tanque de O2 de Alta Capacidade",
+    "ingredients": ["1x Tanque de O2 Padrão", "2x Vidro", "4x Titânio", "1x Prata"],
+    "biomes": ["Safe Shallows", "Grassy Plateaus"],
+    "tip": "Aumenta o tempo de mergulho. Escaneie fragmentos em Twisty Bridges."
+  },
+  {
+    "name": "Rebreather",
+    "ingredients": ["1x Kit de Fiação", "1x Malha de Fibra"],
+    "biomes": ["Kelp Forest", "Grassy Plateaus"],
+    "tip": "Reduz o consumo de oxigênio em profundidades maiores. Escaneie fragmentos em naufrágios."
+  },
+  {
+    "name": "Armadilha Gravitacional",
+    "ingredients": ["1x Bateria", "1x Minério de Cobre", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Atrai peixes pequenos para facilitar a coleta de alimentos."
+  },
+  {
+    "name": "Sinalizador",
+    "ingredients": ["1x Cobre", "1x Titânio"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Marque locais importantes, como naufrágios ou entradas de cavernas."
+  },
+  {
+    "name": "Tablete de Purificação de Água (*Below Zero*)",
+    "ingredients": ["1x Depósito de Sal", "1x Planta Frost Vase"],
+    "biomes": ["Glacial Basin", "Arctic Spires"],
+    "tip": "Converta neve em água potável. Ideal para longas explorações terrestres."
+  },
+  {
+    "name": "Salada de Frutas Picante (*Below Zero*)",
+    "ingredients": ["1x Fevered Pepper", "1x Amostra de Árvore Bulbo"],
+    "biomes": ["Arctic Spires", "Glacial Basin"],
+    "tip": "Fornece comida e calor. Plante Fevered Peppers em Growbeds internos."
+  },
+  {
+    "name": "Braço de Perfuração do Prawn Suit",
+    "ingredients": ["5x Titânio", "2x Lítio", "4x Diamante"],
+    "biomes": ["Lost River", "Blood Kelp Zone"],
+    "tip": "Coletar grandes depósitos de recursos com eficiência. Escaneie fragmentos no Koppa Mining Site."
+  },
+  {
+    "name": "Módulo Aquário do Seatruck (*Below Zero*)",
+    "ingredients": ["2x Lingote de Titânio", "1x Vidro", "1x Kit de Fiação"],
+    "biomes": ["Twisty Bridges", "Lilypad Islands"],
+    "tip": "Armazene peixes vivos para comida fresca durante longas explorações."
+  },
+  {
+    "name": "Lingote de Plasteel",
+    "ingredients": ["1x Lingote de Titânio", "2x Lítio"],
+    "biomes": ["Blood Kelp Zone", "Lost River"],
+    "tip": "Essencial para construções avançadas como Cyclops e Prawn Suit."
+  },
+  {
+    "name": "Vidro Esmaltado",
+    "ingredients": ["1x Vidro", "1x Dente de Stalker", "1x Chumbo"],
+    "biomes": ["Kelp Forest", "Grassy Plateaus"],
+    "tip": "Pegue Dente de Stalker observando stalkers brincando com metal reciclado."
+  },
+  {
+    "name": "Kit de Fiação Avançado",
+    "ingredients": ["1x Kit de Fiação", "1x Ouro", "1x Chip de Computador"],
+    "biomes": ["Safe Shallows", "Kelp Forest"],
+    "tip": "Necessário para equipamentos avançados como Cyclops e Moonpool."
+  },
+  {
+    "name": "Chip de Computador",
+    "ingredients": ["2x Amostra de Coral de Mesa", "1x Ouro", "1x Fio de Cobre"],
+    "biomes": ["Safe Shallows", "Twisty Bridges"],
+    "tip": "Coral de Mesa pode ser colhido com a faca, comum em zonas rasas."
+  },
+  {
+    "name": "Aerogel",
+    "ingredients": ["1x Bolsa de Gel", "1x Rubi"],
+    "biomes": ["Blood Kelp Zone", "Grand Reef"],
+    "tip": "Utilize para fabricação de equipamentos que exigem alta resistência térmica."
+  },
+  {
+    "name": "Lubrificante",
+    "ingredients": ["1x Cacho de Semente de Creepvine"],
+    "biomes": ["Kelp Forest"],
+    "tip": "Fundamental para construções móveis e máquinas pesadas."
+  },
+  {
+    "name": "Célula de Energia",
+    "ingredients": ["2x Bateria", "1x Borracha de Silicone"],
+    "biomes": ["Safe Shallows", "Grassy Plateaus"],
+    "tip": "Usado para alimentar veículos como Seamoth e Prawn Suit."
+  },
+  {
+    "name": "Kit de Fiação",
+    "ingredients": ["2x Minério de Prata"],
+    "biomes": ["Grassy Plateaus", "Kelp Forest"],
+    "tip": "Componente base de ferramentas eletrônicas. Pratique mineração eficiente."
+  },
+  {
+    "name": "Lingote de Titânio",
+    "ingredients": ["10x Titânio"],
+    "biomes": ["Safe Shallows"],
+    "tip": "Combine metal reciclado para obter Titânio facilmente."
+  },
+  {
+    "name": "Borracha de Silicone",
+    "ingredients": ["1x Cacho de Semente de Creepvine"],
+    "biomes": ["Kelp Forest"],
+    "tip": "Essencial para crafting inicial, especialmente ferramentas e baterias."
+  }
+]
