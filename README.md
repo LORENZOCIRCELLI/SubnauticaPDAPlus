@@ -9,7 +9,7 @@ Um sistema desenvolvido em Java para organizar e calcular receitas de crafting d
 - 📦 Simular e gerenciar receitas do jogo Subnautica.
 - 🧠 Exercitar conceitos fundamentais e avançados de **Orientação a Objetos em Java**.
 - 📂 Utilizar boas práticas de arquitetura, versionamento e modularização.
-- 💾 Realizar persistência de dados e leitura externa futura (JSON).
+- 💾 Realizar persistência de dados e leitura externa (JSON).
 - 🎓 Servir como portfólio técnico e educativo.
 
 ---
@@ -18,18 +18,15 @@ Um sistema desenvolvido em Java para organizar e calcular receitas de crafting d
 
 - **Java 17+**
 - **Orientação a Objetos** (POO)
-- **Enums e Collections**
 - **Organização em pacotes**
 - **Leitura e estruturação de dados**
-- (⚙️ Em breve) **Leitura de arquivos externos**
-- (📊 Em breve) **Interface gráfica com JavaFX**
+- **Leitura de arquivos externos**
+- **Interface gráfica com JavaFX**
 
 ---
 
 ## 📈 Futuras Implementações
 
-- 📝 Migração das receitas para arquivos JSON
-- 🖼 Interface gráfica com JavaFX
 - 📍 Sistema de localização de recursos por região
 - 🧮 Simulação de inventário com cálculo automático
 - 🔁 Salvamento e carregamento do progresso do jogador
