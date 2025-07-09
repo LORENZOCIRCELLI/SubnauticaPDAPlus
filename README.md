@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" width="300"/>
+</p>
+
 # 🌊 Subnautica Crafting Assistant - Java Edition
 
 Um sistema desenvolvido em Java para organizar e calcular receitas de crafting do jogo **Subnautica**, com foco educacional e estrutura orientada a objetos.
