@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="300"/>
+  <img src="logo.png" width="150"/>
 </p>
 
 # 🌊 Subnautica Crafting Assistant - Java Edition
@@ -49,3 +49,4 @@ Este projeto está licenciado sob os termos da [Licença Pública Geral GNU v3.0
 Você é livre para usar, modificar e distribuir este projeto, respeitando os termos da licença.
 
 Para mais informações, consulte o arquivo [LICENSE](./LICENSE).
+
